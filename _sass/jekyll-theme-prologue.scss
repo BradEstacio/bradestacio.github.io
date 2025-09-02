@@ -59,6 +59,11 @@
 
 /* Basic */
 
+	#intro {
+		display: center;
+		width: 25%;
+	}
+
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -241,8 +246,8 @@
 		border: 0;
 
 		img {
-			display: center;
-			width: 25%;
+			display: block;
+			width: 100%;
 		}
 
 		&.avatar48 {
