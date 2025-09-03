@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _games = site.games | sort: 'date' | reverse -%}
+{%- assign _games = site.posts | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_games -%}
 <!-- Main -->
 <div id="main">
